@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="#">
+
+            <p>Clientes</p>
+            <fieldset>
+                <legend>Cadastro de Clientes</legend>
+            
+                    <label for="">Nome: </label>
+                    <input type="text"><br><br>
+                    <label for="">Email: </label>
+                    <input type="text"><br>
+                    <label for="">Contade</label><br>
+                    <input type="number" name="" id="">
+
+            </fieldset>
+            <br>
+
+        
+        <fieldset>
+            <legend>Listas de Carros</legend>
+                    <select name="listacarro" id="listacarro">
+                        <option disabled selected hidden>Selecione</option>
+                        <option value="celta">Celta</option>
+                        <option value="evoque">Evoque</option>
+                        <option value="jetta">Jetta</option>
+                        <option value="hb20">Hb20</option>
+                        <option value="mercedez">Mercedez GLE</option>
+                    </select>
+
+                <p>Região</p>
+
+                <input autocomplete="on" list="regiao" placeholder="Escolha Sua Cidade">
+
+                <datalist id="regiao">
+                    <option value="São Paulo"></option>
+                    <option value="Juquitiba"></option>
+                    <option value="Parana"></option>
+                </datalist>
+
+                <input type="range" name="ss" id="in"><br><br>
+
+                <label for="feedback">Seu feedback aqui</label><br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" required placeholder="Deixa seu feedback aqui"
+                    maxlength="150" minlength="100"></textarea>
+
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+
+</body>
+
+</html>
+<!--option eu quero dar uma opção para minha lista e presciso colocar em todos
+   disabled desabilitar o nome - selected para ela não ficar selecionarda 
+   e o hidden caso eu queiro hidden oculta a opção
+   datalist  ele vai completando 
+feildset serve para a delimitação e o legend para colocar uma leganda nele-->
