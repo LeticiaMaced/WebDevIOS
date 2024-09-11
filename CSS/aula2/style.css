@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    text-align: center;
+    text-shadow: 10px 10px 3px black;
+
+}
+
+body{
+    background-color: beige;
+}
+
+p{
+    color: blue;
+    font-size: 0.90em;
+    text-indent: 50px;
+
+}
+.gato {
+    filter: drop-shadow(10px 11px 10px orange);
+ 
+}
+
+.esqueleto {
+    filter: drop-shadow(10px 11px 20px pink);
+}

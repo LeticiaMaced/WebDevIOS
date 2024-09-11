@@ -1,0 +1,27 @@
+p{
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+
+}
+
+.Pa{
+    color: purple;
+    font-style: italic;
+    text-align: right;
+    padding: 50px;
+}
+
+
+/* p,h1{
+    color: purple;
+    font-style: italic;
+
+} quero que todos as paginas que tenha esse nome tenha esssa configuraçoes NÃO TEM HERARQUIA */
+
+/* 
+ul>li>a {
+    color: purple;
+    font-style: italic;
+} aqui tem herarquia -  quero que troque o a que esta dentro do li que esta dentro do ul*/

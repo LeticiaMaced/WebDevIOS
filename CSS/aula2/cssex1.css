@@ -1,0 +1,36 @@
+body{
+    background-color: #FCC9BD;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+h1{
+    text-align: center;
+    color: #043259;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+}
+
+.TitiDois{
+    text-align: center;
+    color: #043259;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    filter: drop-shadow(10px 11px 20px green);
+     
+     
+}
+div{
+    text-align: center;
+}
+
+.Pparagrafo{
+    text-align: justify;
+    color: #CC2235;
+    text-shadow: 10px 10px 11px black;
+}
+
