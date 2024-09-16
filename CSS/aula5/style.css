@@ -1,0 +1,44 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+.pri{
+    padding: 10px 20px 30px 40px;
+}
+
+.seg{
+    border: solid 5px red;
+    margin: 10px 20px 30px 40px;
+    /* margin-top: ; 
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ; versão extendida a de cima e abreviada*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* padding borda interna
+margin borda externa */

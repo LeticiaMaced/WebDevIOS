@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    border-left: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 20px red;
+    border-top: dashed 5px red;
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    margin: 50px;
+}
+.abc{
+    color: gray;
+    background-color: white;
+    border: solid 0px;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
