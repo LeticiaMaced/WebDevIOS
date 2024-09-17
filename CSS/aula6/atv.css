@@ -1,0 +1,36 @@
+section{
+    
+    border: solid 3px rgb(221, 32, 64);
+    text-align: center;
+    width: 100%;
+    
+}
+
+div{
+    margin: 10px;
+    width: 25vw;
+}
+
+
+img{
+ border: solid 1px pink;
+ 
+    
+}
+
+.segundo{
+    float: left;
+    
+}
+
+.primeiro{
+    float: right;
+    
+
+    
+}
+
+
+
+
+

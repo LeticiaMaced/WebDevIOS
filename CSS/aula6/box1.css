@@ -1,0 +1,26 @@
+div{
+    height: 250px;
+    width: 250px;
+    margin: 0.5em;
+    border: double 1px;
+}
+
+.caixa1{
+    /* border-color: rgb(42, 211, 155); */
+    box-sizing: content-box;
+    font-size: 2em;
+    padding: 30px;
+    border: double 10px cadetblue;
+    
+}
+
+.caixa2{
+    /* border-color: rgb(207, 161, 219); */
+    box-sizing: border-box;
+    font-size: 2em;
+    padding: 30px;
+    border: double 10px rgb(235, 74, 195);
+}
+
+/*  mudar o comportamento padrão - box-sizing 
+ - fazer logo no começo no root */

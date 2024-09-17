@@ -1,0 +1,18 @@
+div{
+    margin: 2em;
+}
+
+.container{
+    border: solid 3px violet;
+    overflow: auto;
+}
+
+img{
+    float: left;
+
+}
+
+.par2{
+    clear: left;
+    
+}
