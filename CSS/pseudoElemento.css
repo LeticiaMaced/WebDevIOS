@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+p::before{
+    content: "😁";
+}
+
+h1::after{
+    content: "👍";
+}
+
+
+/* esses after e before não tem peso semantico, se o meu css cair esses emoji cai tambem porque não esta no html */

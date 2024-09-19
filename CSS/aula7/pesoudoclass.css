@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h1:hover{
+    background-color: aquamarine;
+}
+
+p:empty{
+    color: aqua;
+    border: 1px solid red;
+    
+}
+
+/* .primeiro:empty{
+    color: rgb(205, 108, 17);
+} */
+
+a:link{
+    color:rgb(182, 140, 222)
+}
+
+
+
