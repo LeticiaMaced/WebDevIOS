@@ -1,0 +1,15 @@
+.containe{
+    background-color: silver;
+    text-align: center;
+}
+
+.containe >img{
+    margin: 10px;
+}
+
+.containe >img:hover{
+    animation: movimento 1.5s case-in-out;
+}
+
+
+/* propridade css animação */

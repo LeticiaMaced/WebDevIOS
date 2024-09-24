@@ -1,0 +1,59 @@
+
+.contrainer{
+    margin: auto;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: ;
+    /* Alinhamento com crossais */
+   /* Tipos de align-items: baseline (indepedente do tamanho ele vai alimha de acordo com o texto)- center - end - flex-end - flex-start - starch */
+
+    /* o flex pode direcionar para direira ou esquerda, vertical crossais e horizontal mainais 
+     caso use o reverse e coloque para ir ao lado diferente do padrão o que muda e o elemento de dentro*/
+     /* crl tab troca pagina */
+     /* space aroud alinha os espaçamento e altura evenly usa os espaços da esquerda e direita tambem */
+     /* um vai subrescrever o outro caso eu use masi de um space e no cros não consigo usar mais no main sim 
+     flex-flow: column wrap; abreviação  */
+
+     /* align-self: posso mudar a caixa uma ou duas do jeito que eu quiser */
+    
+}
+
+
+
+box {
+    /* width: 100px;
+    height: 100px; */
+    display: block;
+    border: 2px solid;
+    margin: 6px;
+      
+}
+
+.box1{
+    background-color: rgb(95, 102, 185);
+/* order que os itens vão ser alocados na tela - o row não vai altear a order que eu estipular  so vai jogar para o lado que eu quiser - Aceita negativo*/
+     order: 3;
+     /* Aumenta o tamanho da caixa */
+     flex-grow: 4; 
+} 
+.box2{
+    
+    background-color: rgb(127, 229, 255);
+      order: 1;      
+      flex-grow: 3;
+}
+
+.box3{
+    
+    background-color: rgb(139, 142, 195);
+      order: 2;  
+      /* diminue o tamanhho da caixa de acordo com que tiver dentro dela*/
+      flex-shrink: 1;
+      
+}
+
+
+

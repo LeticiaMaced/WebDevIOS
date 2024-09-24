@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+h1{
+    color: rgb(251, 210, 157);
+}
+
+@media screen and (max-width:320px){
+    /* Equando a tela não for maior que 320 a tela vai continuar marrom */
+    h1{
+        color: aqua;
+    }
+
+}
+
+@media print and (max-width:800px){
+    h1{
+        color: rgb(159, 101, 47);
+    }
+    h2{
+        color: aquamarine;
+    }
+ /* Aqui vai aparecer a cor quando for imprimir */
+}
+
+@media (max-width: 480px){
+    /*Vai aplicar para toda tela  */
+
+    h2{
+        color: rgb(214, 84, 194);
+    }
+}
+
+@media (min-width: 768px){
+    h3{
+        background-color: rgb(136, 198, 237);
+        color: rgb(175, 3, 158);
+        text-align: center;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    h2, h3, h4, h5 {
+        display: none;
+    }
+}
+
+
+
+
+
+/* Pequena (menor que 640 px)
+Média (641 px a 1.007 px)
+Grande (1.008 px e maior) */

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width:481px) and (max-width:768px){
+    p{
+        font-family:arial;
+        font-size:1.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px){
+    img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px){
+    p{
+        text-align: justify;
+    }
+
+    h1,h2{
+        text-align: center;
+        color: green;
+    }
+}
+
+
+/* @media (Orientation:landscape) h1{ display:none} e o celular deitado e deitado ele remove a imagem*/
