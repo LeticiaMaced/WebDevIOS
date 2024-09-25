@@ -1,0 +1,35 @@
+.contrainer{
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+    border: 2px solid blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(4, 2fr);
+    /* reapt - podemos colocar fração e valor fixo tambem */
+    grid-template-areas: 
+    /* Não precisa de ponto e não podemos deslocar senão for na horizotal e vertical se não quebra */
+    "header header header header "
+    "aside main main main"
+    "aside main main main"
+    "footer footer footer footer ";
+}
+
+.box1{
+    grid-area: header;
+    background-color: aquamarine;
+}
+.box2 {
+    grid-area: aside;
+    background-color: azure;
+}
+
+.box3{
+    grid-area: main;
+    background-color: bisque;
+}
+
+.box4{
+    grid-area: footer;
+    background-color: rgb(200, 101, 175);
+}

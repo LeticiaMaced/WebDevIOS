@@ -1,0 +1,49 @@
+.contrane{
+    height: 300px;
+    width: 700px;
+    border: px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(5, 2fr);
+    grid-template-areas:
+    "Caixa1 Caixa1 Caixa1 Caixa1 Caixa1"
+    "Caixa2 Caixa3 Caixa3 Caixa3 Caixa4"
+    "Caixa2 Caixa3 Caixa3 Caixa3 Caixa4"
+    "Caixa5 Caixa5 Caixa6 Caixa6 Caixa6"
+    "Caixa7 Caixa7 Caixa7 Caixa7 Caixa7"    
+    ;
+}
+
+.caixa1{
+    background-color: rgb(233, 245, 5);
+    grid-area: Caixa1;
+}
+
+
+.caixa2{
+    background-color: rgb(178, 131, 83);
+    grid-area: Caixa2;
+}
+
+.caixa3{
+    background-color: rgb(153, 213, 153);
+    grid-area: Caixa3;
+}
+
+.caixa4{
+    background-color: rgb(205, 123, 76);
+    grid-area: Caixa4;
+}
+.caixa5{
+    background-color: rgb(103, 150, 182);
+    grid-area: Caixa5;
+}
+.caixa6{
+    background-color: silver;
+    grid-area: Caixa6;
+}
+.caixa7{
+    background-color: green;
+    grid-area: Caixa7;  
+}

@@ -6,7 +6,7 @@
     height: 500px;
     display: flex;
     flex-direction: row-reverse;
-    flex-direction: ;
+    flex-direction: row-reverse;
     /* Alinhamento com crossais */
    /* Tipos de align-items: baseline (indepedente do tamanho ele vai alimha de acordo com o texto)- center - end - flex-end - flex-start - starch */
 
