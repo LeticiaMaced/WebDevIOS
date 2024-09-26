@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contrainer{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border: solid 1px black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:  
+    "Caixa1 Caixa2 Caixa3"
+    "Caixa1 Caixa2 Caixa3"
+    "Caixa1 Caixa2 Caixa3";
+    column-gap: 10px;/*Espaço entre as colunas */
+     /*row-gap: 10px; Espaço entre as linhas - os dois e so usar o GRAP EX:grap:10px 10px; abreviação dos dois*/
+}
+.box1{
+    background-color: rgb(181, 106, 218);
+    grid-area: Caixa1;
+}
+.box2{
+    background-color: rgb(247, 0, 45);
+    grid-area: Caixa2;
+}
+.box3{
+    background-color: rgb(236, 172, 78);
+    grid-area: Caixa3; 
+}
