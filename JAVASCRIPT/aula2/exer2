@@ -1,0 +1,13 @@
+
+
+let isAluno = prompt(`Voce e Aluno ?`)
+
+
+
+
+
+
+let nome = prompt (`Escreva seu nome: `)
+let idade = Number(prompt (`Escreva sua idade`))
+let genero = prompt (`Qual seu genero: `)
+

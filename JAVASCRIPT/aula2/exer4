@@ -1,0 +1,6 @@
+let peso = parseFloat(prompt(`Escreva seu peso? `))
+let altura = parseFloat(prompt(`Escreva sua altura? `))
+
+let imc = peso/ (altura*altura)
+
+alert(`Seu imc é: ${imc}`)
