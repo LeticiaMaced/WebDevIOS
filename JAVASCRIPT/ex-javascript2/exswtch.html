@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv-Javascript-SWEITCH</title>
+</head>
+
+<body>
+    <script>
+        // 5. Crie um programa que pergunte ao usuário um número de 1 a 7 e exiba o dia da
+        // semana correspondente.
+
+        let diaS = Number(prompt("Digite um numero de 1 a 7"));
+        switch (diaS) {
+            case 1:  diaS = alert(`Segunda-Feira`)
+                break;
+            case 2:  diaS = alert(`Terça-Feira`)
+                break;
+            case  3:  diaS = alert(`Quarta-Feira`) 
+                break;
+            case  4:  diaS = alert(`Quinta-Feira`) 
+                break;
+            case   5:  diaS = alert(`Sexta-Feira`) 
+                break;
+            case    6:  diaS = alert(`Sabado`) 
+                break;
+            case     7:  diaS = alert(`Domingo`) 
+                break;
+
+            default: 
+                alert(`Opção invalida, Escreva de 1 a 7!`)
+        }
+
+        /**6. Escreva um programa que classifique a idade de uma pessoa em diferentes
+              categorias: criança, adolescente, adulto e idoso.*/
+
+          let idade = Number(prompt("Qual sua a idade ?"))
+          switch (true) {
+            case (idade <=10): idade = alert(`Criança`)
+                break;
+                case (idade <=19): idade = alert(`Adulto`)
+                break;
+                case (idade <=100): idade = alert(`Idoso`)
+                break;
+
+            default:
+                alert(`Passou do 100 e fóssil. Passa a receita ? `)
+                break;
+          }
+
+
+        /**7. Implemente um programa que realiza operações matemáticas básicas (adição,
+            subtração, multiplicação e divisão) com base na escolha do usuário.*/
+
+        let num1 = parseFloat(prompt("Digite o primeiro número:"));
+        let num2 = parseFloat(prompt("Digite o segundo número:"));
+
+        let operacao = prompt("Escolha a operação: (adição), (subtração), (multiplicação), (divisão)");
+        let res;
+
+        switch (operacao) {
+            case '+':
+                res= num1 + num2;
+                break;
+            case '-':
+                res = num1 - num2;
+                break;
+            case '*':
+                res = num1 * num2;
+                break;
+            case '/':
+                res = num1 / num2;
+                break;
+            default:
+                res = `Operação Invalida`
+                break;
+        }
+              alert(res);
+
+        /**8. Aplicando desconto em produtos
+        Objetivo: Criar um programa que permita ao usuário aplicar um desconto em um
+        determinado produto, de acordo com o código promocional informado.
+        Descrição: O programa deve solicitar ao usuário que informe um código promocional (DESC1,
+        DESC2, DESC3, DESC4 ou DESC5) através de um prompt seguindo a informação de descontos
+        a seguir:
+        • "DESC1 - 05% de desconto"
+        • "DESC2 - 10% de desconto"
+        • "DESC3 - 15% de desconto"
+        • "DESC4 - 20% de desconto"
+        • "DESC5 - 25% de desconto”
+        Usando a estrutura switch, o programa deve identificar qual foi o código promocional
+        informado pelo usuário e aplicar o desconto correspondente ao produto.
+        Após a aplicação do desconto, o programa deve exibir o valor original do produto e o valor
+        com desconto na tela.
+        Caso o usuário informe um código promocional inválido, o programa deve exibir uma
+        mensagem de “erro” na tela, informando que o mesmo não é um cupom válido.
+        Exemplo de uso:
+        Suponha que um usuário informe o código promocional DESC2. Nesse caso, o programa deve
+        exibir a mensagem "10% de desconto" na tela e aplicar um desconto de 10% no produto. Em
+        seguida, o programa deve exibir o valor original do produto (R$ 1000) e o valor com desconto
+        (R$ 900) na tela.*/
+
+        let valorO = parseFloat(prompt(`Qual o valor do produto: R$`));
+
+        let codigoDes = prompt(`Escreva o codigo de desconto em lentras maiusculas (DESC1, DESC2, DESC3, DESC4, DESC5):` )
+
+        let desconto;
+        let valorDesconto;
+
+        switch (codigoDes) {
+            case 'DESC1':
+                desconto = 0.05; 
+                break;
+            case 'DESC2':
+                desconto = 0.10;
+                break;
+            case 'DESC3':
+                desconto = 0.15;
+                break;
+            case 'DESC4':
+                desconto = 0.20;
+                break;
+            case 'DESC5':
+                desconto = 0.25;
+                break;
+            default:
+                alert(`Codigo incorreto`);
+                break;
+        }
+
+        
+        valorDesconto = valorO * (1 - desconto);
+
+        alert(`Valor com desconto: R$ ${valorDesconto.toFixed(2)}`)
+        alert(`Valor original: R$ ${valorO.toFixed(2)}`)
+
+
+    </script>
+</body>
+
+</html>
