@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let altura = parseFloat(prompt(`Qual a sua Altura ?`))
+        let peso = parseFloat(prompt(`Qual o seu peso em quilogramas ?`))
+        let imc = peso / (altura * altura);
+
+        if (imc <18.5) {
+            alert(`Abaixo do peso`)
+        } else if(imc <=18.5 && < 24.9 ){
+            alert (`Peso normal`)  
+        } else if(imc <=24.9 && < 29){
+            alert(`sobrepeso`)
+        } else if(imc <=29 && <30){
+            alert(`Obsidade grau i`)
+        } else{
+            alert(`acima do peso`)
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
