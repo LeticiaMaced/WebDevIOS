@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv-Javascript -IFELSE</title>
+</head>
+
+<body>
+    <script>
+        /**1. Faça um programa para conferir sua idade. Se a idade for menor do que 18 anos,
+            exiba uma mensagem informando que o usuário é menor de idade. 
+            Se a idade for
+            igual ou maior do que 18 anos e menor do que 60 anos, exiba uma mensagem
+            informando que o usuário é adulto. Se a idade for igual ou maior do que 60 anos,
+            exiba uma mensagem informando que o usuário é idoso. */
+
+        let idadeM = Number(prompt("Qual a sua idade?"))
+        if (idadeM <=18) {
+            alert("Voce e menor de Idade")
+
+        } else if (idadeM >=18 && idadeM <=60){
+            alert("Voce e Adulto!!")       
+        }
+
+
+
+        // 2. Faça um programa que teste a idade do usuário. Se a idade digitada for maior ou
+        // igual a 18, exiba a mensagem "Você pode dirigir". Caso contrário, exiba a mensagem
+        // "Você ainda não pode dirigir". 
+
+        let idade = Number(prompt("Digite sua idade: "));
+        if (idade >= 18) {
+            alert("Você pode dirigir");
+        } else {
+            alert("Você ainda não pode dirigir");
+        }
+
+
+
+        /**3. Faça um programa que peça ao usuário para digitar um número inteiro. Se o número
+         for positivo, exiba uma mensagem informando que o número é positivo. Se o
+        número for negativo, exiba uma mensagem informando que o número é negativo.
+        Se o número for igual a zero, exiba uma mensagem informando que o número é zero.
+        (Aplicar no Console).*/
+
+        let inteiro = parseInt(prompt(`Digite um numero inteiro por favor!`))
+        if (inteiro >0 ) {
+            alert(`O numero e positivo!`)
+
+        } else if (inteiro < 0) {
+            alert(`O numero e negativo`)
+        } else {
+            alert(`Numero zero`)
+        }
+
+        /**4. Atividades relacionais: crie um programa que solicite ao usuário que digite a sua
+    altura em metros e o seu peso em quilogramas. Em seguida, o programa deve
+    calcular o índice de massa corporal (IMC) do usuário usando a fórmula IMC = peso /
+    altura*2 e verificar se o IMC está dentro do intervalo saudável de 18,5 a 24,9. O
+    programa deve imprimir na tela se o IMC está dentro do intervalo saudável ou não. */
+
+        
+        let altura = parseFloat(prompt(`Qual a sua Altura ?`))
+        let peso = parseFloat(prompt(`Qual o seu peso em quilogramas ?`))
+        let imc = peso / (altura * altura);
+
+        if (imc >= 18.5 && imc <= 24.9) {
+            alert(`Voce esta saudável. PARABENS!!`)
+        } else {
+            alert(` Que pena, parece que voce não esta com uma boa saúde ^_^`) 
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
